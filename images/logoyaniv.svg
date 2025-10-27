@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" width="400" height="80">
+  <style>
+    .text { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; fill: #0066cc; }
+    .name { font-size: 32px; font-weight: 700; }
+    .consultancy { font-size: 28px; font-weight: 300; }
+  </style>
+  <text x="200" y="40" class="text name" text-anchor="middle">YaniV</text>
+  <text x="200" y="70" class="text consultancy" text-anchor="middle">ConsultancY</text>
+</svg>
