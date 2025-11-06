@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div>
+    <strong>{{ site.company.name }}</strong><br>
+    <a href="tel:{{ site.company.phone | replace: ' ', '' }}">{{ site.company.phone }}</a> •
+    <a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a><br>
+    {{ site.company.address }}
+  </div>
+  <div>
+    <a href="{{ site.company.whatsapp }}">WhatsApp</a> |
+    <a href="{{ site.company.linkedin }}">LinkedIn</a>
+  </div>
+  <small>© {{ site.time | date: "%Y" }} {{ site.company.name }}</small>
+</footer>
